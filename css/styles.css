@@ -5,6 +5,7 @@
   --cornflower: #E7E9FC;
   --slate: #434455;
   --ocean: #404BBF;
+  --light-slate: #8E8F99;
 }
 
 * {
@@ -182,7 +183,11 @@ img {
 /* Main format */
 /* Hero/Section 1 Format*/
 .hero-section {
-  background-color: var(--navy);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)), url(/images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1440px 600px, cover;
+  background-color: unset;
   padding: 188px 0;
 }
 
@@ -251,7 +256,9 @@ img {
 }
 
 .team-list {
-  background-color: #FFFFFF;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #FFF);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .section-four .list {
