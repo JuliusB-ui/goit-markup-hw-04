@@ -134,6 +134,7 @@ img {
   background-color: green;
   align-items: center;
   border-bottom: 1px solid var(--cornflower);
+   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66 , 0.08);
 }
 
 .header .container {
@@ -186,7 +187,7 @@ img {
   background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)), url(/images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px 600px, cover;
+  background-size: cover;
   background-color: unset;
   padding: 188px 0;
 }
@@ -236,6 +237,16 @@ img {
 }
 
 .section-two .item-title {
+  margin-bottom: 8px;
+}
+
+.stwo-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cloud);
+  border-radius: 4px;
+  height: 112px;
   margin-bottom: 8px;
 }
 
