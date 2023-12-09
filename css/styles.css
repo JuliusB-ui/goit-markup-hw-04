@@ -284,34 +284,71 @@ img {
   padding: 32px 0;
 }
 
+.team .selection-p {
+  margin-bottom: 8px;
+}
+
 .socmed-team {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap:24px;
 }
 
 .social-list{
   display: flex;
   width: 40px;
   height: 40px;
-    justify-content: center;
+  margin: 0;
 }
 
 .social-link {
   display: flex;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   background-color: var(--iris);
   border-radius: 50%;
   align-items: center;
   justify-content: center;
 }
 
+.social-link:hover,
+.social-link:focus {
+ background-color: var(--ocean);
+}
+
 .sfour-icons {
-  fill: var(--navy);
+  fill: var(--cloud);
 }
 
 .item-title {
   margin-bottom: 8px;
+}
+
+/* section 5 */
+
+
+.client-list {
+  display: flex;
+  height: 88px;
+  width: calc((100% - 120px) / 6);
+}
+
+.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  fill: var(--light-slate);
+}
+
+.client-link:focus,
+.client-link:hover {
+  fill: var(--ocean);
+  border-color: var(--ocean);
 }
 
 /* Footer */
