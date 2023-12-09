@@ -15,7 +15,7 @@ max-width: 1440px;
 }
 
 .section {
-  padding: 120px ;
+  padding: 120px 0;
 }
 
 /* body/general format*/
@@ -222,9 +222,6 @@ img {
 
 
 /* section 2 */
-.section-two {
-  padding: 120px 0;
-}
 
 .section .container .list {
   display: flex;
@@ -263,7 +260,6 @@ img {
 .section-four{
   text-align: center;
   background-color: var(--cloud);
-  padding: 120px 0;
 }
 
 .team-list {
@@ -343,12 +339,18 @@ img {
   border: 1px solid var(--light-slate);
   border-radius: 4px;
   fill: var(--light-slate);
+  color: var(--light-slate);
 }
 
 .client-link:focus,
 .client-link:hover {
   fill: var(--ocean);
   border-color: var(--ocean);
+  color: var(--ocean);
+}
+
+.sfive-icons {
+  fill:currentColor;
 }
 
 /* Footer */
@@ -362,9 +364,31 @@ img {
   padding: 100px 0;
 }
 
+.footer > .container {
+  margin-left: 120px;
+}
+
 .footer .link {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.socmed-footer {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 16px;dd
+}
+
+.footer-social {
+  display: flex;
+  margin: 0 auto;
+  align-items: baseline;
+}
+
+.socmed-p {
+  margin-bottom: 16px;
+  color: #FFFFFF;
 }
 
 /* Portfolio */
