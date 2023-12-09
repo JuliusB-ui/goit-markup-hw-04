@@ -284,6 +284,25 @@ img {
   padding: 32px 0;
 }
 
+.social-list{
+  width: 40px;
+  height: 40px;
+}
+
+.social-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.sfour-icons {
+  fill: var(--navy);
+}
+
 .item-title {
   margin-bottom: 8px;
 }
